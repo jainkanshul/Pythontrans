@@ -1,0 +1,6 @@
+#!/Users/anshuljain/Documents/POCS/Translation_python/python-docs-hello-world/venv/bin/python3
+# EASY-INSTALL-DEV-SCRIPT: 'googletrans==2.3.0','translate'
+__requires__ = 'googletrans==2.3.0'
+__import__('pkg_resources').require('googletrans==2.3.0')
+__file__ = '/Users/anshuljain/Documents/POCS/Translation_python/python-docs-hello-world/venv/src/py-googletrans/translate'
+exec(compile(open(__file__).read(), __file__, 'exec'))
