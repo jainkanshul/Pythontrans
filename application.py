@@ -1,9 +1,11 @@
 from flask import Flask
+from flask_cors import CORS
 from googletrans import Translator
 from flask import request
 
 
 app = Flask(__name__)
+CORS(app)
 translator = Translator()
 
 
